@@ -1,0 +1,180 @@
+/* COLORS */
+
+.base {
+    background-color: var(--lumo-base-color);
+}
+.primary {
+    background-color: var(--lumo-primary-color);
+}
+.primary-10pct {
+    background-color: var(--lumo-primary-color-10pct);
+}
+.primary-50pct {
+    background-color: var(--lumo-primary-color-50pct);
+}
+
+.shade-5pct {
+    background-color: var(--lumo-shade-5pct);
+}
+.shade-10pct {
+    background-color: var(--lumo-shade-10pct);
+}
+.shade-20pct {
+    background-color: var(--lumo-shade-20pct);
+}
+
+/* BORDER */
+
+.border-radius-5px {
+    border-radius: 5px;
+}
+
+.border-primary {
+    border: 1px solid var(--lumo-primary-color);
+}
+.border-shade-5pct {
+    border: 1px solid var(--lumo-shade-5pct);
+}
+.border-shade-10pct {
+    border: 1px solid var(--lumo-shade-10pct);
+}
+.border-shade-20pct {
+    border: 1px solid var(--lumo-shade-20pct);
+}
+
+/* SHADOW */
+
+.shadow-xs {
+    box-shadow: var(--lumo-box-shadow-xs);
+}
+
+/* MARGIN */
+
+.margin-horizontal-m {
+    margin-left: var(--lumo-space-m);
+    margin-right: var(--lumo-space-m);
+}
+
+.margin-horizontal-xl {
+    margin-left: var(--lumo-space-xl);
+    margin-right: var(--lumo-space-xl);
+}
+
+.margin-vertical-zero {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-top-zero {
+    margin-top: 0;
+}
+
+.margin-top-m {
+    margin-top: var(--lumo-space-m);
+}
+
+.margin-top-xl {
+    margin-top: var(--lumo-space-xl);
+}
+
+.margin-right-m {
+    margin-right: var(--lumo-space-m);
+}
+
+/* PADDING */
+
+.padding-horizontal-m {
+    padding-left: var(--lumo-space-m);
+    padding-right: var(--lumo-space-m);
+}
+
+.padding-horizontal-l {
+    padding-left: var(--lumo-space-l);
+    padding-right: var(--lumo-space-l);
+}
+
+.padding-horizontal-xl {
+    padding-left: var(--lumo-space-xl);
+    padding-right: var(--lumo-space-xl);
+}
+
+.padding-left-m {
+    padding-left: var(--lumo-space-m);
+}
+
+.padding-right-m {
+    padding-right: var(--lumo-space-m);
+}
+
+/* OTHER */
+
+.bold-text {
+    font-weight: bold;
+}
+.secondary-text {
+    font-size: var(--lumo-font-size-s);
+    color: var(--lumo-secondary-text-color);
+}
+
+.primary-text-color {
+	color: var(--lumo-primary-text-color);
+}
+
+.no-text-decoration-hover:hover {
+    text-decoration: none;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* OTHER */
+
+.unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* COMPONENTS - Evtl. auslagern */
+
+.button-panel-root {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: var(--lumo-space-m);
+    /* padding: var(--lumo-space-m); */
+}
+
+vaadin-tabs.no-indicator vaadin-tab::before {
+    display: none;
+}
+
+.form-label-width-12em vaadin-form-item {
+    --vaadin-form-item-label-width: 12em;
+}
+
+.text-field-default-width-2em {
+    --vaadin-text-field-default-width: 2em;
+}
+
+/* Notification */
+
+.notification-info {
+	
+}
+
+.notification-warn {
+	color: darkorange;
+}
+
+.notification-error {
+	color: red;
+}

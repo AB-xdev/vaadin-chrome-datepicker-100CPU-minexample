@@ -1,0 +1,19 @@
+[part~="cell"].highlight-red {
+    background-color: rgba(255, 155, 155, 1);
+}
+
+[part~="cell"].highlight-light-red {
+    background-color: rgba(255, 155, 155, 0.2);
+}
+
+[part~="cell"].highlight-green {
+    background-color: rgba(155, 255, 155, 1);
+}
+
+[part~="cell"].highlight-light-green {
+    background-color: rgba(155, 255, 155, 0.2);
+}
+
+[part~="cell"].highlight-light-grey {
+    background-color: rgba(0,0,0,0.1);
+}

@@ -1,0 +1,37 @@
+html {
+    /* 
+     * For custumization see https://demo.vaadin.com/lumo-editor/  
+     */
+
+  --lumo-line-height-m: 1.8;
+  --lumo-line-height-s: 1.5;
+  --lumo-line-height-xs: 1.3;
+
+  /* --lumo-font-size: 1rem;
+  --lumo-font-size-xxxl: 1.75rem;
+  --lumo-font-size-xxl: 1.375rem;
+  --lumo-font-size-xl: 1.125rem;
+  --lumo-font-size-l: 1rem; */
+  --lumo-font-size-m: 0.9rem;
+  /* --lumo-font-size-s: 0.8125rem;
+  --lumo-font-size-xs: 0.75rem;
+  --lumo-font-size-xxs: 0.6875rem; */
+
+  --lumo-size-xl: 2.5rem;
+  --lumo-size-l: 2rem;
+  --lumo-size-m: 1.75rem;
+  --lumo-size-s: 1.5rem;
+  --lumo-size-xs: 1.25rem;
+
+  --lumo-space-xl: 1.75rem;
+  --lumo-space-l: 1.125rem;
+  --lumo-space-m: 0.7rem;
+  --lumo-space-s: 0.25rem;
+  --lumo-space-xs: 0.125rem;
+
+  --lumo-primary-text-color: rgb(0, 104, 240);
+  --lumo-primary-color-50pct: rgba(0, 104, 240, 0.5);
+  --lumo-primary-color-10pct: rgba(0, 104, 240, 0.1);
+  --lumo-primary-color: #0068f0;
+  --lumo-primary-contrast-color: #f7fafd;
+}
